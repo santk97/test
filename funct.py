@@ -9,11 +9,11 @@ def swap(a,b):
     b=temp
     print ' a=' , a
     print ' b=', b
-    return a, b
+
 a=int(raw_input('enter first'))
 b=int(raw_input('enter second'))
 divide(a,b)
-a,b=swap(a,b)
+swap(a,b)
 divide(a,b)
 
 
